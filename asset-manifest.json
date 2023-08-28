@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.bf8f44ff.js",
-    "static/media/nova_glicerio_LOGO_page-0001.jpg": "/static/media/nova_glicerio_LOGO_page-0001.9242972365ca4133364a.jpg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.bf8f44ff.js.map": "/static/js/main.bf8f44ff.js.map"
+    "main.css": "/https//associacaonovaglicerio.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/https//associacaonovaglicerio.github.io/static/js/main.bc3a8c93.js",
+    "static/media/nova_glicerio_LOGO_page-0001.jpg": "/https//associacaonovaglicerio.github.io/static/media/nova_glicerio_LOGO_page-0001.9242972365ca4133364a.jpg",
+    "index.html": "/https//associacaonovaglicerio.github.io/index.html",
+    "main.073c9b0a.css.map": "/https//associacaonovaglicerio.github.io/static/css/main.073c9b0a.css.map",
+    "main.bc3a8c93.js.map": "/https//associacaonovaglicerio.github.io/static/js/main.bc3a8c93.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bf8f44ff.js"
+    "static/js/main.bc3a8c93.js"
   ]
 }
