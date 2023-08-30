@@ -1,14 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.bf8f44ff.js",
+    "main.css": "/static/css/main.801fe7ad.css",
+    "main.js": "/static/js/main.39f6cf47.js",
+    "static/media/moedasMudas_upscaled.png": "/static/media/moedasMudas_upscaled.c15d3d613c9462851147.png",
     "static/media/nova_glicerio_LOGO_page-0001.jpg": "/static/media/nova_glicerio_LOGO_page-0001.9242972365ca4133364a.jpg",
+    "static/media/logo sem bg.png": "/static/media/logo sem bg.b8a05e10c660ec256803.png",
+    "static/media/meioAmbiente.png": "/static/media/meioAmbiente.3cffabe1c127356070fe.png",
+    "static/media/Coleta.png": "/static/media/Coleta.43a2ed6cf91681f14dcb.png",
+    "static/media/telephone_4367049.png": "/static/media/telephone_4367049.c959d854a99f2c020e87.png",
+    "static/media/transparencia.png": "/static/media/transparencia.5e29ccc933a6b56b3ca1.png",
+    "static/media/prestacao.png": "/static/media/prestacao.85fee8d2882d0a611c2f.png",
+    "static/media/Separacao.png": "/static/media/Separacao.d02065a39a6e26343420.png",
+    "static/media/reciclados.png": "/static/media/reciclados.58a34d78fee088daf804.png",
+    "static/media/valores.png": "/static/media/valores.e0ece120d9f4e702a7ca.png",
+    "static/media/desenvolvimento.png": "/static/media/desenvolvimento.3f42c9009830cca8f553.png",
+    "static/media/missao.png": "/static/media/missao.73c47e587a30686658a6.png",
+    "static/media/catadores.png": "/static/media/catadores.12b25e620016b84c9398.png",
+    "static/media/facebook.png": "/static/media/facebook.4f037d961598aff2a0a4.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.bf8f44ff.js.map": "/static/js/main.bf8f44ff.js.map"
+    "main.801fe7ad.css.map": "/static/css/main.801fe7ad.css.map",
+    "main.39f6cf47.js.map": "/static/js/main.39f6cf47.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bf8f44ff.js"
+    "static/css/main.801fe7ad.css",
+    "static/js/main.39f6cf47.js"
   ]
 }
