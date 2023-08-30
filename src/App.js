@@ -1,18 +1,18 @@
-
-import './App.css';
-import logo from "./Images/nova_glicerio_LOGO_page-0001.jpg"
+import Main from './Components/Main';
+import './Css/App.css';
+// import logo from "./Images/nova_glicerio_LOGO_page-0001.jpg"
+import Header from './Components/Header';
+import Formulario from "./Components/Formulario";
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img style={{borderRadius: "70px"}} src={logo} className="App-logo" alt="logo" />
-        <p>
-          Em Construcao .
-        </p>
-      
-      </header>
-    </div>
+    <>
+      <Header />
+      <Main />
+      <Formulario />
+      <Footer />
+    </>
   );
 }
 

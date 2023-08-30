@@ -1,0 +1,35 @@
+.Countup {
+    background-color: #1e2967;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 600px) {
+    .Countup {
+        flex-direction: unset;
+        justify-content: space-around;
+    }
+  }
+
+.Countup img {
+    width: 60px;
+}
+
+.count-container {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .Container-Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Container-Counter p {
+    text-align: center;
+    color: white;
+  }

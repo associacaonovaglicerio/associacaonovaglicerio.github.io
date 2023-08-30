@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cinzel&family=Fauna+One&family=Fredericka+the+Great&display=swap');
+
+
+body {
+    background-image: url(../Images/nova_glicerio_LOGO_page-0001.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 400px;
+    background-position: fixed;
+}
+
+
+.DivLogoDesk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .DivLogoDesk img {
+        display: none;
+    }
+}
+
+
+
+.DivNomeLogo {
+    font-family: 'Borel', cursive;
+}
+
+.DivNomeLogo h3 {
+    margin: 0;
+    font-size: xx-large;
+}
+
+/* Style Responsive Menu */
+
+.menuResponsivo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#checkbox-menu {
+    position: absolute;
+    opacity: 0;
+    align-self: center;
+    cursor: pointer;
+}
+
+#checkbox-menu:checked+label span:nth-child(3) {
+    transition: 0.2s ease-in;
+    transform: rotate(45deg);
+    top: auto;
+}
+
+#checkbox-menu:checked+label span:nth-child(1) {
+    opacity: 0;
+    transition: 0s;
+}
+
+#checkbox-menu:checked+label span:nth-child(2) {
+    transition: 0.2s ease-in;
+    transform: rotate(-45deg);
+    top: auto;
+}
+
+.headerLabel {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    height: 38px;
+    width: 38px;
+    align-self: center;
+    justify-content: center;
+    background-color: #999393;
+    border-radius: 15px;
+    align-items: center;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 70%;
+    border-radius: 30px;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s ease-out;
+}
+
+label span:nth-child(2) {
+    top: 24px;
+}
+
+label span:nth-child(3) {
+    top: 8px;
+}
+
+label span:nth-child(1) {
+    top: 16px;
+}
+
+/* Style Menu List Mobile*/
+
+.Menu-Opcoes ul {
+    z-index: 1;
+    transition: 0.5s ease-in;
+    list-style-type: none;
+    border: 2px solid #fff;
+    padding: 0;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    background-color: #999393;
+    width: 50%;
+    color: black;
+    font-weight: 600;
+    margin: auto;
+}
+
+.Menu-Opcoes ul li {
+    padding: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+    border-bottom: white double 2px;
+    margin-bottom: 10px;
+}
+
+.Menu-Opcoes ul li:hover {
+    padding-left: 50px;
+    border: 3px #00B0FF double;
+    transition: 1s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Style Menu Desktop */
+
+.Menu-Desktop ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    background: white;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .Menu-Desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Menu-Opcoes, .menuResponsivo {
+        display: none;
+    }
+}
+
+
+
+
+
+.slider-item {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.swiper {
+    z-index: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 10px;
+    border-radius: 100%;
+}

@@ -1,0 +1,24 @@
+footer {
+    background-color: #1e2967;
+    margin-top: 10px;
+    display: flex;
+    padding: 4px;
+    color: white;
+    flex-direction: column;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.footer ul li {
+    padding: 5px;
+    margin: 5px;
+}
