@@ -11,6 +11,8 @@ body {
 }
 
 
+
+
 .DivLogoDesk {
     display: flex;
     align-items: center;
@@ -21,9 +23,9 @@ body {
 @media screen and (max-width: 600px) {
     .DivLogoDesk img {
         display: none;
+        position: fixed;
     }
 }
-
 
 
 .DivNomeLogo {
@@ -103,6 +105,17 @@ label span:nth-child(1) {
     top: 16px;
 }
 
+@media screen and (min-width: 600px) {
+    .containerHeader {
+        flex-direction: row-reverse;
+        justify-content: space-around !important;
+    }
+
+    .LogoImg {
+        display: none;
+    }
+}
+
 /* Style Menu List Mobile*/
 
 .Menu-Opcoes ul {
@@ -131,7 +144,7 @@ label span:nth-child(1) {
 
 .Menu-Opcoes ul li:hover {
     padding-left: 50px;
-    border: 3px #00B0FF double;
+    border: 3px #0044ff double;
     transition: 1s ease-in-out;
 }
 
@@ -164,17 +177,16 @@ a {
 @media screen and (min-width: 600px) {
     .Menu-Opcoes, .menuResponsivo {
         display: none;
+        position: fixed;
     }
 }
-
-
-
 
 
 .slider-item {
     width: 100%;
     height: 350px;
-    object-fit: cover;
+    object-fit: none;
+    background-image: url(../Images/backgrounduniverse.jpeg);
 }
 
 .swiper {

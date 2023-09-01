@@ -1,19 +1,20 @@
-import Main from './Components/Main';
-import './Css/App.css';
-// import logo from "./Images/nova_glicerio_LOGO_page-0001.jpg"
-import Header from './Components/Header';
-import Formulario from "./Components/Formulario";
-import Footer from './Components/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Main />
-      <Formulario />
-      <Footer />
-    </>
-  );
+import Home from './Components/Home';
+import MoedaMudas from './Components/MoedaMudas'
+
+
+
+function App () {
+
+    return (
+        <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Home />} />
+            <Route exact path="/moeda-mudas" element={<MoedaMudas />} />
+        </Routes>
+        </BrowserRouter>
+    )
 }
 
 export default App;

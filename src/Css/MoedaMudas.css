@@ -1,0 +1,35 @@
+.moedaMudasAds {
+    width: 100%;
+    max-width: -webkit-fill-available;
+    margin: 10px;
+}
+
+.ulMoedaMudas {
+    display: flex;
+    list-style: none;
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ulMoedaMudas li {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.ulMoedaMudas li:hover {
+    cursor: pointer;
+    color: blue;
+    font-size: large;
+    border-bottom: 2px solid blue;
+}
+
+
+@media screen and (max-width:600px) {
+    .menuMoedaMudas{
+        display: none;
+    }   
+    
+}

@@ -12,14 +12,14 @@ function Footer() {
 
             <footer className="footer">
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", }}>
-                    <img style={{ width: "50%", borderRadius: "500px", backgroundColor: "white" }} src={Logo} alt="Logotipo Nova Glicerio" />
+                    <img style={{ maxWidth:"250px", width: "50%", borderRadius: "500px", backgroundColor: "white" }} src={Logo} alt="Logotipo Nova Glicerio" />
                     <div>
                         <h3>Endereco Principal:</h3>
                         <p>Avenida Do Estado, 4434, Sao paulo - SP - 01516-000</p>
                     </div>
                 </div>
 
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex",justifyContent:"space-evenly"}}>
 
                     <div>
                         <ul>
@@ -37,6 +37,7 @@ function Footer() {
                             <li>Transparencia</li>
                         </ul>
                     </div>
+                    
                 </div>
             </footer>
         </>
