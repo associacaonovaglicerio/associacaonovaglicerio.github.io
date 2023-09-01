@@ -78,7 +78,7 @@ const Header = () => {
             <div onClick={menuDisplay} className="Menu-Opcoes">
                 <ul onClick={menuDisplay} style={{ display: check ? "block" : "none" }}>
 
-                    <li onClick={menuDisplay}> <a onClick={menuDisplay} href="#/moedamudas">Corre Moeda Mudas</a></li>
+                    <li onClick={menuDisplay}> <a onClick={menuDisplay} href="../#/moedamudas">Corre Moeda Mudas</a></li>
                     <li onClick={menuDisplay}> <a href="/">Missao</a></li>
                     <li onClick={menuDisplay}> <a href="/">Valores</a></li>
                     <li onClick={menuDisplay}> <a href="/">Coleta Seletiva</a></li>
