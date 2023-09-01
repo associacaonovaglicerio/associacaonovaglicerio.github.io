@@ -61,7 +61,7 @@ function MoedaMudas() {
                 <div className="Menu-Opcoes">
                     <ul style={{ display: check ? "block" : "none" }}>
 
-                        <li onClick={menuDisplay}> <a href="../">Inicio</a></li>
+                        <li onClick={menuDisplay}> <a href="/">Inicio</a></li>
                         <li onClick={menuDisplay}> <a href="/">Missao</a></li>
                         <li onClick={menuDisplay}> <a href="/">Valores</a></li>
                         <li onClick={menuDisplay}> <a href="/">Coleta Seletiva</a></li>
