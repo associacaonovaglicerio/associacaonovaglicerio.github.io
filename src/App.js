@@ -11,7 +11,7 @@ function App () {
         <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route exact path="/moeda-mudas" element={<MoedaMudas />} />
+            <Route exact path="/moedamudas" element={<MoedaMudas />} />
         </Routes>
         </BrowserRouter>
     )

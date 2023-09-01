@@ -23,7 +23,7 @@ function Main() {
             <div className="container">
 
                 <div>
-                    <a href="/moeda-mudas" target="_blank" > <img src={MoedasMudas} alt="Corre Moedas Mudas" /></a>
+                    <a href="/moedamudas" target="_blank" > <img src={MoedasMudas} alt="Corre Moedas Mudas" /></a>
                     <span>Corre Moeda Mudas</span>
                 </div>
 
