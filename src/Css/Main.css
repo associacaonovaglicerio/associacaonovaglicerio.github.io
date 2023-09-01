@@ -24,6 +24,13 @@
     width: 80%;
 }
 
+.container div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .container div span {
     margin: 10px;
     font-size: 18px;
