@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './Components/Home';
 import MoedaMudas from './Components/MoedaMudas'
@@ -8,12 +8,12 @@ import MoedaMudas from './Components/MoedaMudas'
 function App () {
 
     return (
-        <BrowserRouter>
+        <Router>
         <Routes>
             <Route path='/' element={<Home />} />
             <Route exact path="/moedamudas" element={<MoedaMudas />} />
         </Routes>
-        </BrowserRouter>
+        </Router>
     )
 }
 
