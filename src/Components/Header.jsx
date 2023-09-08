@@ -56,7 +56,7 @@ const Header = () => {
                 </div>
 
                 <div className="DivLogoDesk">
-                    <img  style={{ width: "150px", borderRadius: "500px", backgroundColor: "white" }} src={LogoNovaGlicerio} alt="" />
+                    <img  style={{ width: "150px", borderRadius: "500px", backgroundColor: "white",margin: "10px" }} src={LogoNovaGlicerio} alt="" />
                 </div>
 
                 <div>

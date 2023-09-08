@@ -97,6 +97,7 @@ label {
     font-style: bold;
     padding-top: 0px;
     margin-top: 0;
+    
 }
 
 .textArea::-moz-placeholder {
@@ -125,9 +126,9 @@ label {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    color: aliceblue;
     width: 80%;
     margin: auto;
+    backdrop-filter: blur(5px);
 }
 
 .modalSucess img {

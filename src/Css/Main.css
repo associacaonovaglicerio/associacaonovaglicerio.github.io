@@ -42,5 +42,110 @@
     .container div img {
         width: 230px;
     }
-    
+
+}
+
+
+/* STYLE SECTION MISSAO */
+
+.HeaderMissao {
+    background-color: #1e2967;
+    padding: 10px;
+
+}
+
+.HeaderMissao h1 {
+    margin-left: 10px;
+}
+
+.H1Div {
+    clip-path: polygon(0 0, 100% 0, 88% 90%, 0 100%);
+    background: white;
+    width: 300px;
+}
+
+.MainMissao {
+    display: flex;
+    margin: 10px;
+    background-image: url('../Images/bg-reciclagem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.MainMissao div {
+    margin: 30px;
+    margin-left: 20px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+@media screen and (min-width:700px) {
+    .MainMissao div {
+        height: 400px;
+        width: 50%;
+    }
+}
+
+.MainMissao div h3 {
+    color: #000;
+    /* Cor do texto */
+    text-shadow: 2px 2px 0px rgb(255 255 255 / 50%);
+}
+
+
+
+/* STYLE SECTION VALORES */
+.HeaderValores {
+    background-color: #0034a9;
+}
+
+.ValoresH1 {
+    text-align: right;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.ValoresH1 h1 {
+    background-color: white;
+    width: 250px;
+    color: black;
+    padding-right: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
+}
+
+.MainValores {
+    background-image: url('../Images/bg-sintetico.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 8px;
+    min-height: 400px;
+}
+
+.MainValores h3 {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 10px;    
+    text-shadow: 2px 2px 0px rgb(255 255 255);
+}
+
+@media screen and (min-width: 700px) {
+    .MainValores h3 {
+        width: 50%;
+        height: 400px;
+    }
 }

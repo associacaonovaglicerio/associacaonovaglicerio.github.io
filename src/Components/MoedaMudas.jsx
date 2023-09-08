@@ -75,6 +75,7 @@ function MoedaMudas() {
 
                 <div className="menuMoedaMudas">
                     <ul className="ulMoedaMudas">
+                        <li> <a href="/">Inicio</a></li>
                         <li> <a href="/">Missao</a></li>
                         <li> <a href="/">Valores</a></li>
                         <li> <a href="/">Coleta Seletiva</a></li>

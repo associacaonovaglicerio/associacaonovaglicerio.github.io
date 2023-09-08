@@ -4,6 +4,8 @@ import * as yup from "yup"
 import "../Css/Formulario.css"
 import { useForm } from '@formspree/react';
 
+import sucessForm from "../Images/gifs-de-ecologia-2.gif"
+
 // import sucess from "../images/Icons/sucess.png"
 
 
@@ -13,19 +15,19 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 let schema = yup.object().shape({
 
     email: yup.string().email("Verifique o Email Informado").required("Nao esqueca o Email"),
-    phoneNumber: yup.string().required("Telefone Nao Informado").matches(
+    telefone: yup.string().required("Telefone Nao Informado").matches(
         /^\(?[1-9]{2}\)? ?(?:[2-8]|9[1-9])[0-9]{3}-?[0-9]{4}$/,
         "Verifique o Numero Informado"
     ),
-    projetoSelect: yup.array().required().min(1, "Seleciona Uma Das Opcoes"),
+    possuiProjeto: yup.array().required().min(1, "Seleciona Uma Das Opcoes"),
     mensagem: yup.string().required("Conte Sobre O Que Precisa"),
-    name: yup.string().required("Nos Diga Qual Sua Graca")
+    nome: yup.string().required("Nos Diga Qual Sua Graca")
 });
 
 
 const CheckboxExample = () => {
 
-    const [state, handleSubmit] = useForm("meqdgypl");
+    const [state, handleSubmit] = useForm("mqkvbjdr");
 
     if (state.succeeded) {
 
@@ -33,8 +35,8 @@ const CheckboxExample = () => {
         return (
             <>
                 <div className='modalSucess'>
-                    <h2>Formulario Enviado!</h2>;
-                    <img src="../Images/logo sem bg.png" alt="Confirmado" srcset="" />
+                    <h2>Formulario Enviado!</h2>
+                    <img src={sucessForm} alt="Confirmado" srcSet="" />
                 </div>
             </>
         )
@@ -52,10 +54,10 @@ const CheckboxExample = () => {
                         validationSchema={schema}
 
                         initialValues={{
-                            name: "",
-                            projetoSelect: [],
+                            nome: "",
+                            possuiProjeto: [],
                             email: "",
-                            phoneNumber: "",
+                            telefone: "",
                             mensagem: ""
                         }}
 
@@ -71,13 +73,13 @@ const CheckboxExample = () => {
 
                             <Form >
 
-                                <h1>Envie Uma Mensagem!</h1>
+                                <h1>Fale Conosco</h1>
 
                                 <div className='subForm' >
 
                                     <div style={{ display: "flex", flexDirection: "column" }} >
                                         <label htmlFor="name">Nome</label>
-                                        <Field className="input" type="text" name="name" placeholder="Digite Seu Nome" />
+                                        <Field className="input" type="text" name="nome" placeholder="Digite Seu Nome" />
                                         <div>
                                             <ErrorMessage className='ErrorMessage' name="name" component="label" />
                                         </div>
@@ -93,9 +95,9 @@ const CheckboxExample = () => {
 
                                     <div style={{ display: "flex", flexDirection: "column" }}>
                                         <label htmlFor="phoneNumber">Telefone</label>
-                                        <Field className="input" type="text" name="phoneNumber" placeholder="Digite Seu telefone" />
+                                        <Field className="input" type="text" name="telefone" placeholder="Digite Seu telefone" />
                                         <div>
-                                            <ErrorMessage className='ErrorMessage' name="phoneNumber" component="label" />
+                                            <ErrorMessage className='ErrorMessage' name="telefone" component="label" />
                                         </div>
                                     </div>
 
@@ -103,20 +105,20 @@ const CheckboxExample = () => {
                                         <label htmlFor="projetoSelect">Possui Projeto ?</label>
                                         <div>
                                             <label>
-                                                <Field type="checkbox" name="projetoSelect" value="Sim" />
+                                                <Field type="checkbox" name="possuiProjeto" value="Sim" />
                                                 Sim
                                             </label>
                                             <label>
-                                                <Field type="checkbox" name="projetoSelect" value="Nao" />
+                                                <Field type="checkbox" name="possuiProjeto" value="Nao" />
                                                 Nao
                                             </label>
                                         </div>
                                     </div>
-                                    <ErrorMessage className='ErrorMessage' name="projetoSelect" component="label" />
+                                    <ErrorMessage className='ErrorMessage' name="possuiProjeto" component="label" />
 
                                     <div>
                                         <label htmlFor="mensagem"></label>
-                                        <Field as="textarea" name="mensagem" placeholder="Conte um Pouco Sobre a Obra" className="textArea" />
+                                        <Field as="textarea" name="mensagem" placeholder="Escreva Sua Mensagem" className="textArea" />
                                         <div>
                                             <ErrorMessage className='ErrorMessage' name="mensagem" component="label" />
                                         </div>
