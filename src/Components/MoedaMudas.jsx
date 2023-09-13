@@ -8,6 +8,7 @@ import LogoFace from "../Images/facebook.png"
 import LogoTel from "../Images/telephone_4367049.png"
 import LogoNovaGlicerio from '../Images/logo sem bg.png'
 import LogoInsta from "../Images/Icons/instagram.png"
+import LogoYoutube from "../Images/Icons/youtube.png"
 import MoedaMudasAds from "../Images/moedaMudasAds.jpg"
 
 function MoedaMudas() {
@@ -24,7 +25,7 @@ function MoedaMudas() {
     return (
         <>
             <header>
-                
+
                 <div className="containerHeader" style={{ display: "flex", alignItems: "center", justifyContent: 'space-around', background: "#1e2967", width: "100%" }}>
 
                     <div className="menuResponsivo">
@@ -43,18 +44,23 @@ function MoedaMudas() {
                     </div>
 
                     <div>
-                        <a href="https://m.facebook.com/profile.php/?id=100064174627408&locale=ms_MY" rel="noreferrer" target="_blank">
-                            <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoFace} alt="logo facebook" />
-                        </a>
+                    <a href="tel:1132077680" rel="noreferrer" target="_blank">
+                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoTel} alt="logo telefone" />
+                    </a>
 
-                        <a href="tel:" rel="noreferrer" target="_blank">
-                            <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoTel} alt="logo facebook" />
-                        </a>
+                    <a href="https://m.facebook.com/profile.php/?id=100064174627408&locale=ms_MY" rel="noreferrer" target="_blank">
+                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoFace} alt="logo facebook" />
+                    </a>
 
-                        <a href="tel:" rel="noreferrer" target="_blank">
-                            <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoInsta} alt="logo instagram" />
-                        </a>
-                    </div>
+                    <a href="https://instagram.com/a.catadoresnovagliceriooficial?igshid=MzRlODBiNWFlZA==" rel="noreferrer" target="_blank">
+                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoInsta} alt="logo instagram" />
+                    </a>
+
+                    <a href="https://youtu.be/s30S9C0wQd8?si=9EXgNphVGQEVepLl" rel="noreferrer" target="_blank">
+                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoYoutube} alt="logo instagram" />
+                    </a>
+                </div>
+
 
                 </div>
 
@@ -90,8 +96,19 @@ function MoedaMudas() {
 
             <div className="mainMoedaMudas">
                 <img className="moedaMudasAds" src={MoedaMudasAds} alt="Foto Explicando Sobre o Corre Moeda Mudas" />
-
             </div>
+            <div className="DivYoutube">
+                <iframe
+                    title="YouTube Video"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/RaPC92xjY8g"                   
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+
             <Footer />
         </>
     )

@@ -3,7 +3,14 @@ import LogoFace from "../Images/facebook.png"
 import LogoTel from "../Images/telephone_4367049.png"
 import LogoNovaGlicerio from '../Images/logo sem bg.png'
 import LogoInsta from "../Images/Icons/instagram.png"
+import LogoYoutube from "../Images/Icons/youtube.png"
 import "../Css/Header.css"
+
+import Slide1 from "../Images/Fotos Zl/01-empilha.jpeg"
+import Slide2 from "../Images/Fotos Zl/02-empilha.jpeg"
+import Slide3 from "../Images/Fotos Zl/03-caminhao.jpeg"
+import Slide4 from "../Images/Fotos Zl/04-plasticoReciclado.jpeg"
+import Slide5 from "../Images/Fotos Zl/05-prensa.jpeg"
 
 
 import { register } from "swiper/element/bundle";
@@ -18,12 +25,12 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 register()
 
 
-
 const images = [
-    { id: "1", image: 'https://revistatrip.uol.com.br/upload/2019/07/5d375df1b40e9/1002x563x960x540x21x11/trip283-catadores-corpo-3.jpg?t=1563910689807' },
-    { id: "2", image: 'https://revistatrip.uol.com.br/upload/2019/07/5d375cc361bb5/trip283-catadores-corpo.jpg' },
-    { id: "3", image: 'https://revistatrip.uol.com.br/upload/2019/07/5d375d4142982/trip283-catadores-corpo-2.jpg' },
-    { id: "4", image: 'https://scontent-gru2-2.xx.fbcdn.net/v/t39.30808-6/343687902_959065621884477_5425081704815515692_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5614bc&_nc_ohc=Lu9iKyEgOAcAX_NQwmq&_nc_ht=scontent-gru2-2.xx&oh=00_AfCVzTBaEhu4x6NWvVGm_qn9UgUA_sjJ-odEoT6216B-Tg&oe=64F520FE' }
+    { id: "1", image: Slide1 },
+    { id: "2", image: Slide2 },
+    { id: "3", image: Slide3 },
+    { id: "4", image: Slide4 },
+    { id: "5", image: Slide5 }
 ];
 
 const Header = () => {
@@ -33,9 +40,7 @@ const Header = () => {
     function menuDisplay() {
 
         setCheck(!check)
-        
-
-    }
+      }
 
 
 
@@ -60,16 +65,20 @@ const Header = () => {
                 </div>
 
                 <div>
+                    <a href="tel:1132077680" rel="noreferrer" target="_blank">
+                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoTel} alt="logo telefone" />
+                    </a>
+
                     <a href="https://m.facebook.com/profile.php/?id=100064174627408&locale=ms_MY" rel="noreferrer" target="_blank">
                         <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoFace} alt="logo facebook" />
                     </a>
 
-                    <a href="tel:" rel="noreferrer" target="_blank">
-                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoTel} alt="logo facebook" />
+                    <a href="https://instagram.com/a.catadoresnovagliceriooficial?igshid=MzRlODBiNWFlZA==" rel="noreferrer" target="_blank">
+                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoInsta} alt="logo instagram" />
                     </a>
 
-                    <a href="tel:" rel="noreferrer" target="_blank">
-                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoInsta} alt="logo instagram" />
+                    <a href="https://youtu.be/s30S9C0wQd8?si=9EXgNphVGQEVepLl" rel="noreferrer" target="_blank">
+                        <img style={{ maxWidth: "35px", margin: "5px 15px" }} src={LogoYoutube} alt="logo instagram" />
                     </a>
                 </div>
 
@@ -109,12 +118,11 @@ const Header = () => {
                     {
                         images.map((item) => (
                             <SwiperSlide key={item.id}>
-                                {/* <img  className="LogoImg" style={{ right: "5px", position: "fixed", width: "150px", borderRadius: "500px", backgroundColor: "#d5e9fbb3" }} src={LogoNovaGlicerio} alt="logotipo da associacao nova glicerio" /> */}
+                                <img  className="LogoImg" style={{ right: "5px", position: "fixed", width: "150px", borderRadius: "500px", backgroundColor: "#d5e9fbb3" }} src={LogoNovaGlicerio} alt="logotipo da associacao nova glicerio" />
                                 <img
                                     src={item.image}
                                     alt="slider"
                                     className="slider-item"
-
                                 />
                             </SwiperSlide>
                         ))
