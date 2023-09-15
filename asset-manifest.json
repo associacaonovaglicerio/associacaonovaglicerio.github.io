@@ -1,15 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.38ab11e1.css",
-    "main.js": "/static/js/main.e0780b0e.js",
+    "main.css": "/static/css/main.c0a164ea.css",
+    "main.js": "/static/js/main.7c555cc8.js",
     "static/media/bg-reciclagem.jpg": "/static/media/bg-reciclagem.9d9f4ab0a0f96fb26a88.jpg",
     "static/media/bg-sintetico.jpeg": "/static/media/bg-sintetico.cb28b37a932d0abebc8c.jpeg",
     "static/media/moedasMudas_upscaled.png": "/static/media/moedasMudas_upscaled.c15d3d613c9462851147.png",
     "static/media/04-plasticoReciclado.jpeg": "/static/media/04-plasticoReciclado.59038a3dffb55514468e.jpeg",
+    "static/media/12-container.jpeg": "/static/media/12-container.4fd54fa8382e9e735d43.jpeg",
+    "static/media/08-patio.jpeg": "/static/media/08-patio.dbd25f74bfb5053dc79f.jpeg",
+    "static/media/07-prensadosEmpilha.jpeg": "/static/media/07-prensadosEmpilha.ad8dfa124518d4de48e8.jpeg",
     "static/media/02-empilha.jpeg": "/static/media/02-empilha.e41aae93722d040491b5.jpeg",
+    "static/media/06-prensados.jpeg": "/static/media/06-prensados.167413368d1d35c912e2.jpeg",
     "static/media/03-caminhao.jpeg": "/static/media/03-caminhao.63a50eefccef26984a12.jpeg",
+    "static/media/09-carregandoCaminhao.jpeg": "/static/media/09-carregandoCaminhao.ec1687448c9687a0ef5d.jpeg",
+    "static/media/20-prensados.jpeg": "/static/media/20-prensados.b0765fa50fbc7dd5c6a1.jpeg",
+    "static/media/14-sacoGarrafas.jpeg": "/static/media/14-sacoGarrafas.8a428dcc8c3627dd0c98.jpeg",
+    "static/media/18-catadores.jpeg": "/static/media/18-catadores.268c9d24fb6e533df0cc.jpeg",
+    "static/media/17-containerPrensaAlinhados.jpeg": "/static/media/17-containerPrensaAlinhados.9e6b5087b74fcee80baf.jpeg",
+    "static/media/13-containers.jpeg": "/static/media/13-containers.579e80aa2f4472664c89.jpeg",
     "static/media/05-prensa.jpeg": "/static/media/05-prensa.3789b12f03e93a8fc524.jpeg",
+    "static/media/10-patioPrensa.jpeg": "/static/media/10-patioPrensa.b13b7fed2f72d0bfbd69.jpeg",
+    "static/media/19-containerNovaGlicerio.jpeg": "/static/media/19-containerNovaGlicerio.d90c1d86c87bfbb8a62b.jpeg",
+    "static/media/16-containersPrensas.jpeg": "/static/media/16-containersPrensas.6032f1d76daab4332c57.jpeg",
+    "static/media/15-CarregadorCarrinho.jpeg": "/static/media/15-CarregadorCarrinho.809f88907af8bae9c1f4.jpeg",
     "static/media/01-empilha.jpeg": "/static/media/01-empilha.c2362779ff0e927a0c6b.jpeg",
+    "static/media/11-prensadosFoco.jpeg": "/static/media/11-prensadosFoco.56e7b552ec9483ce93e9.jpeg",
     "static/media/nova_glicerio_LOGO_page-0001.jpg": "/static/media/nova_glicerio_LOGO_page-0001.9242972365ca4133364a.jpg",
     "static/media/logo sem bg.png": "/static/media/logo sem bg.b8a05e10c660ec256803.png",
     "static/media/moedaMudasAds.jpg": "/static/media/moedaMudasAds.ca0b53361aaf3aa5b8b9.jpg",
@@ -30,11 +45,11 @@
     "static/media/catadores.png": "/static/media/catadores.12b25e620016b84c9398.png",
     "static/media/facebook.png": "/static/media/facebook.4f037d961598aff2a0a4.png",
     "index.html": "/index.html",
-    "main.38ab11e1.css.map": "/static/css/main.38ab11e1.css.map",
-    "main.e0780b0e.js.map": "/static/js/main.e0780b0e.js.map"
+    "main.c0a164ea.css.map": "/static/css/main.c0a164ea.css.map",
+    "main.7c555cc8.js.map": "/static/js/main.7c555cc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.38ab11e1.css",
-    "static/js/main.e0780b0e.js"
+    "static/css/main.c0a164ea.css",
+    "static/js/main.7c555cc8.js"
   ]
 }
