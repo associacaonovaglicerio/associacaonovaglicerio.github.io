@@ -11,6 +11,21 @@ import Slide2 from "../Images/Fotos Zl/02-empilha.jpeg"
 import Slide3 from "../Images/Fotos Zl/03-caminhao.jpeg"
 import Slide4 from "../Images/Fotos Zl/04-plasticoReciclado.jpeg"
 import Slide5 from "../Images/Fotos Zl/05-prensa.jpeg"
+import Slide6 from "../Images/Fotos Zl/06-prensados.jpeg"
+import Slide7 from "../Images/Fotos Zl/07-prensadosEmpilha.jpeg"
+import Slide8 from "../Images/Fotos Zl/08-patio.jpeg"
+import Slide9 from "../Images/Fotos Zl/09-carregandoCaminhao.jpeg"
+import Slide10 from "../Images/Fotos Zl/10-patioPrensa.jpeg"
+import Slide11 from "../Images/Fotos Zl/11-prensadosFoco.jpeg"
+import Slide12 from "../Images/Fotos Zl/12-container.jpeg"
+import Slide13 from "../Images/Fotos Zl/13-containers.jpeg"
+import Slide14 from "../Images/Fotos Zl/14-sacoGarrafas.jpeg"
+import Slide15 from "../Images/Fotos Zl/15-CarregadorCarrinho.jpeg"
+import Slide16 from "../Images/Fotos Zl/16-containersPrensas.jpeg"
+import Slide17 from "../Images/Fotos Zl/17-containerPrensaAlinhados.jpeg"
+import Slide18 from "../Images/Fotos Zl/18-catadores.jpeg"
+import Slide19 from "../Images/Fotos Zl/19-containerNovaGlicerio.jpeg"
+import Slide20 from "../Images/Fotos Zl/20-prensados.jpeg"
 
 
 import { register } from "swiper/element/bundle";
@@ -30,7 +45,22 @@ const images = [
     { id: "2", image: Slide2 },
     { id: "3", image: Slide3 },
     { id: "4", image: Slide4 },
-    { id: "5", image: Slide5 }
+    { id: "5", image: Slide5 },
+    { id: "6", image: Slide6 },
+    { id: "7", image: Slide7 },
+    { id: "8", image: Slide8 },
+    { id: "9", image: Slide9 },
+    { id: "10", image: Slide10 },
+    { id: "11", image: Slide11 },
+    { id: "12", image: Slide12 },
+    { id: "13", image: Slide13 },
+    { id: "14", image: Slide14 },
+    { id: "15", image: Slide15 },
+    { id: "16", image: Slide16 },
+    { id: "17", image: Slide17 },
+    { id: "18", image: Slide18 },
+    { id: "19", image: Slide19 },
+    { id: "20", image: Slide20 },
 ];
 
 const Header = () => {
